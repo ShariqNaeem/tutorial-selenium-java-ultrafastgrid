@@ -82,7 +82,7 @@ public class AppTest {
 		try {
 
 			// Navigate to the url we want to test
-			webDriver.get("https://demo.applitools.com");
+			webDriver.get("https://demo.applitools.com/index_v2.html");
 
 			// Call Open on eyes to initialize a test session
 			eyes.open(webDriver, "Demo App - Selenium for Java - Ultrafast", "Smoke Test - Selenium for Java - Ultrafast", new RectangleSize(800, 600));
